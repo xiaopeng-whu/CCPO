@@ -7,7 +7,7 @@
 
 The following installation commands were tested in Ubuntu 16.04.
 
-Our implementation is based on the Open AI safety starter agents(https://github.com/openai/safety-starter-agents) and SAUTE(https://github.com/huawei-noah/HEBO/tree/master/SAUTE). So make sure that you have installed the packages before you start running codes.
+Our implementation is based on the Open AI safety starter agents(https://github.com/openai/safety-starter-agents) and SAUTE(https://github.com/huawei-noah/HEBO/tree/master/SAUTE (old) or https://github.com/huawei-noah/HEBO) (new). So make sure that you have installed the packages before you start running codes.
 
 
 
