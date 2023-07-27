@@ -2,6 +2,7 @@
 
 ## About 
 
+How to satisfy safety constraints almost surely (or with probability one) is becoming an emerging research issue for safe reinforcement learning (RL) algorithms in safety-critical domains. For instance, self-driving cars are expected to ensure that the driving strategy they adopt will never do harm to pedestrians and themselves. However, existing safe RL algorithms suffer from either risky and unstable constraint satisfaction or slow convergence. To tackle these two issues, we propose Conservatively Constrained Policy Optimization (CCPO) using state augmentation. CCPO designs a simple yet effective penalized reward function by introducing safety states and adaptive penalty factors under Safety Augmented MDP framework. Specifically, a novel Safety Promotion Function (SPF) is proposed to make the agent being more concentrated on constraint satisfaction with faster convergence by reshaping a more conservative constrained optimization objective. Moreover, we theoretically prove the convergence of CCPO. To validate both the effectiveness and efficiency of CCPO, comprehensive experiments are conducted in both single-constraint and more challenging multi-constraint environments. The experimental results demonstrate that the safe RL algorithms augmented by CCPO satisfy the predefined safety constraints almost surely and gain almost equivalent cumulative reward with faster convergence.
 
 ## Installation 
 
